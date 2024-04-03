@@ -15,6 +15,18 @@
         {
             "path": "./projects/x_template"
         },
+        {
+            "path": "projects/Proyecto1_Ej3"
+        },
+        {
+            "path": "projects/Proyecto1_Ej4"
+        },
+        {
+            "path": "projects/Proyecto1_Ej5"
+        },
+        {
+            "path": "projects/Proyecto1_Ej6"
+        }
     ],
     "settings": {
         "idf.portWin": "COM14",
