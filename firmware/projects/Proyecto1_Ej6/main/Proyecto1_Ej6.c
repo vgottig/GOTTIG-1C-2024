@@ -11,9 +11,17 @@
  *
  * @section hardConn Hardware Connection
  *
- * |    Peripheral  |   ESP32   	|
+ * |    EDU-ESP     |   Peripheral 	|
  * |:--------------:|:--------------|
- * | 	PIN_X	 	| 	GPIO_X		|
+ * | 	GPIO_20	 	| 	  D1	    |
+ * | 	GPIO_21	 	|  	  D2 	   	|
+ * | 	GPIO_22	 	|  	  D3	   	|
+ * | 	GPIO_23	 	|  	  D4 	   	|
+ * | 	GPIO_19	 	|  	  SEL_1	   	|
+ * | 	GPIO_18	 	|  	  SEL_2   	|
+ * | 	GPIO_9  	|  	  SEL_3   	|
+ * | 	+5V	 	    |  	  +5V   	|
+ * | 	GND 	 	|  	  GND   	|
  *
  *
  * @section changelog Changelog
