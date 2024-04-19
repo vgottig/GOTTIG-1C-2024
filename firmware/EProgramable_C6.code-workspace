@@ -29,6 +29,12 @@
         },
         {
             "path": "projects/Proyecto2_EJ1"
+        },
+        {
+            "path": "projects/Proyecto2_EJ2"
+        },
+        {
+            "path": "projects/3_blinking_timer"
         }
     ],
     "settings": {
