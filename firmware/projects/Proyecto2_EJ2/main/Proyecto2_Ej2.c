@@ -44,7 +44,8 @@
 #define CONFIG_BLINK_PERIOD_LED_1_US 1000000
 
 /*==================[internal data definition]===============================*/
-TaskHandle_t led1_task_handle = NULL;
+
+TaskHandle_t led1_task_handle = NULL; // Etiqueta
 
 /** @def tecla1
  *  @brief Activa y desactiva la medición
