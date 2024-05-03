@@ -181,14 +181,13 @@ void app_main(void)
 		.period = 1000000,
 		.func_p = FuncTimerB,
 		.param_p = NULL};
-	TimerInit(&my_timer);		// Inicialización del timer
+	TimerInit(&my_timer); // Inicialización del timer
 
 	serial_config_t my_uart = {
 		.port = UART_PC,
 		.baud_rate = 9600,
 		.func_p = teclasControl,
-		.param_p = NULL
-	};
+		.param_p = NULL};
 	UartInit(&my_uart);
 
 	// Interrupciones
@@ -199,6 +198,5 @@ void app_main(void)
 	xTaskCreate(&distancias_task, "distancias_task", 512, NULL, 5, &led1_task_handle);
 
 	TimerStart(my_timer.timer); // Inicia el recuento del timer
-	
 }
 /*==================[end of file]============================================*/
